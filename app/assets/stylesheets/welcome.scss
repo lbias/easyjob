@@ -1,0 +1,574 @@
+/*CSS reset*/
+ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
+ blockquote,th,td {margin:0;padding:0;}
+ table {border-collapse:collapse;border-spacing:0;}
+ fieldset,img {border:0}
+ address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ ol,ul {list-style:none}
+ caption,th {text-align:left}
+ h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal}
+ q:before,q:after {content:''}
+ abbr,acronym { border:0}
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.content-container {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  padding: 50px;
+}
+.content-container h3 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  padding-bottom: 10px;
+}
+.form-group {
+  margin: 0;
+  padding: 0;
+}
+.form-item {
+  width: 100%;
+}
+.content-container input {
+  height: 40px;
+  margin: 0;
+}
+.my-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  letter-spacing: .3rem;
+  text-align: center;
+}
+.my-button:hover {
+  background-color: transparent;
+}
+.content {
+  position: relative;
+  max-width: 80%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-size: 1.0rem;
+  line-height: 3.5rem;
+}
+.sub-copy {
+  text-align: center;
+  display: block;
+}
+.sign-up-form {
+    position: relative;
+    max-width: 580px;
+    margin: 0;
+    padding: 0;
+}
+.line {
+  display: block;
+  position: relative;
+  top: 10px;
+  width: 80%;
+  height: 1px;
+  background: rgba(255,255,255,0.5);
+  margin: 0 auto;
+}
+.log-in-link a:hover {
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+
+// 以下是视频.\
+.home-video-hero {
+  position: relative;
+  margin: 0 -15px 0 -15px;
+  bottom: -5px;
+}
+.home-video-hero .video-frame {
+  position: relative;
+}
+.home-video-hero .video-frame video {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-size: cover;
+    position: relative;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    min-height: auto;
+    z-index: -10;
+    background-size: cover;
+}
+video {
+
+}
+.home-video-hero .video-overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    // background: rgba(0,0,0,0.3);
+    z-index: 2;
+}
+.home-video-hero .content-container {
+    width: 670px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(+50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+.home-video-hero h1 {
+    font-size: 38px;
+    font-size:4rem;
+    line-height: 48px;
+    line-height: 3rem;
+    text-align: center;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 10px;
+}
+.home-video-hero .sub-copy {
+    font-family: "webfont",Helvetica,Arial,sans-serif;
+    font-size: 1.25rem;
+    line-height: 30px;
+    line-height: 1.875rem;
+    text-align: center;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+.home-video-hero p {
+    font-family: "Gotham_SSm_4r",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-size: 1.5rem;
+    line-height: 1.125rem;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+.home-video-hero .sign-up-form {
+    position: relative;
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.content a:hover {
+  background-color: transparent;
+}
+.content a {
+  // font-size: 1.7rem;
+  // font-size: 1.1rem;
+  font-size: 1.8rem;
+
+}
+
+
+// 以下是首页上的横条
+.jumbotron-2 {
+  border-radius: 0 !important;//圆角为0
+  background-size: cover;
+  background-color: #414141;
+  border-top:3px solid #282828;
+  color: #ffffff;
+  height: 5em;
+  padding: 0;
+  margin-top: 0;
+}
+.jumbotron-2 p {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 1.2em;
+}
+.gr-text {
+  color: #2DBE57;
+}
+
+
+
+// 以下是按钮
+.btn-2 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 2rem;
+}
+.btn-4 {
+  padding: 30px;
+}
+.btn-2:hover {
+  background-color: transparent;
+  color: #409c6a;
+}
+
+
+// 以下是navi-bar
+.navi-bar {
+  position: relative;
+  top: 35px;
+}
+.navi-bar .ui-strip{
+  width: 5px;
+  height: 20px;
+  background-color: #60c99b;
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
+  top: 4px;
+}
+.navi-bar p {
+  color: #777;
+  font-size: 2rem;
+}
+.navi-bar .navi-line {
+  width: 100%;
+  height: 1px;
+  background: rgba(40, 40, 40, 0.2);
+  color: #009933;
+  position: absolute;
+  bottom: 0px;
+  left: -3px;
+}
+.navi-bar .navi-more a {
+  // float: right;
+  text-decoration: underline;
+  position: relative;
+  top: 8px;
+  z-index: 88;
+  color: rgba(9,9,9,0.4);
+}
+.navi-bar-1 {
+  position: relative;
+  // top: -35px;
+}
+.navi-bar-item {
+  margin-bottom: 17px;
+}
+
+// 以下是推荐公司企业专区
+.wel-cp {
+  margin-top: 90px;
+}
+
+// 以下是panel
+@media only screen and (max-width: 1200px) {
+  .wel-label-item {
+    height: 60px;
+  }
+}
+.panel {
+    box-shadow: 0 5px 8px 0 rgba(7,17,27,.1);
+    transition: .3s all linear;
+    border-width: 0;
+    margin-top: 80px;
+}
+.panel-default .user-img {
+  background-color: #ffffff;
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  width: 75px;
+  border-radius: 7px;
+  box-shadow: 0 5px 8px 0 rgba(7,17,27,.2);
+  // padding: 1px;
+}
+.panel-default h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  float: left;
+}
+.panel-default .panel-body .label-item-1 {
+  float: left;
+  background-color: #fff;
+  border: 1px solid #07c257;
+  margin-right: 4px;
+  color: #07c257;
+  // margin-top: 8px;
+  // margin-bottom: px;
+  // float: left;
+  overflow: hidden;
+  max-width: 232px;
+  margin-bottom: 4px;
+}
+.wel-label-item {
+  min-height: 35.98px;
+  max-height: 60px;
+  overflow: hidden;
+  padding-left: 8px;
+  padding-bottom: 4px;
+  padding-top: 8px;
+}
+.panel-heading {
+  position: relative;
+  padding: 0;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  max-height: 55px;
+
+}
+.intro {
+  margin-top: 13px;
+}
+.panel .panel-bc-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  border-width: 0;
+  padding: 0;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background-size: contain;
+  border-width: 0;
+}
+.panel-bc {
+  position: relative;
+  display: block;
+  z-index: 1;
+  background: linear-gradient(270deg,rgba(0,185,90,.65),#00b95a);
+  background-size: contain;
+  height: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  padding: 16px;
+}
+.panel-bc .label {
+  position: absolute;
+  top: 0;
+}
+.panel-body {
+  padding: 0;
+}
+.panel-body .intro {
+  max-height: 115px;
+  min-height: 115px;
+  overflow: hidden;
+  padding: 10px;
+}
+.panel-body h3 {
+  font-size: 1.4rem;
+  color: rgba(20,20,20, 0.75);
+  line-height: 1.77rem;
+  letter-spacing: 1px;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover {
+    border: 1px solid #07c257;
+    background-color: #fff !important;
+    color: #07c257;
+}
+
+.panel-footer {
+    background-color: #fff !important;
+    padding: 10px;
+}
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #10c14c;
+    color: #fff;
+    width: 70%;
+    height: 35px;
+    line-height: 1.8rem;
+    font-size: 1.8rem;
+    letter-spacing: .3rem;
+}
+
+
+// 以下是介绍区
+.stroy-item .image-left {
+  float: left;
+}
+.story .story-item .image-right img {
+  position: relative;
+  right: 0;
+  float:right;
+}
+.story-text .text-item{
+  width: 80%;
+}
+.desv {
+  border-width: 0;
+  border-radius:  0;
+  width: 80%;
+}
+.story-item {
+  padding:30px;
+}
+.story-item .story-text h1 {
+  color: rgba(30,30, 30,0.7);
+  font-size: 2.3rem;
+  padding: 10px;
+}
+.story-item .story-text p {
+  color: rgba(30,30, 30,0.7);
+  font-size: 1.5rem;
+  letter-spacing: 0.21rem;
+}
+.story-text {
+  margin: auto 0;
+  align-items:center;
+}
+.story-text .tet {
+  position: absolute;
+  right: 0;
+}
+.text-item {
+  padding: 50px 0;
+}
+
+
+
+// 以下是学员被录取目录
+.content-4 {
+  text-align: center;
+  padding: 70px 0 70px 0;
+}
+.lp-section-5 .content-5 p {
+  text-align: center !important;
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.lp-section-5 .content-5 .list img{
+  max-height: 40px;
+  margin: 5px auto 15px;
+}
+.lp-section-5 .content-5 .more {
+  // max-width: 960px;
+  // text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+
+
+// 以下是首页底下的注册
+.jumbotron-3 {
+  padding: 40px;
+  background-color: rgb(78, 169, 110);
+  margin: 0 -15px 0 -15px;
+  border-radius: 0 !important;//圆角为0
+}
+.form-actions-2 .btn-1 {
+  background-color: transparent;
+  height: 52px;
+  width: 100%;
+  color: #ffffff;
+}
+.form-actions-2 .btn-1:hover {
+  background-color: #ffffff;
+  color: #55b070;
+}
+.welcome-sign {
+  width: 600px;
+  margin: 0 auto;
+}
+.welcome-sign .content h2,h4{
+  text-align: center;
+  color: #ffffff;
+}
+.jumbotron-3 h4 {
+  font-size: 1.99rem;
+  margin:20px;
+}
+.form-item input {
+  height: 43px;
+  margin-bottom: 20px;
+}
+.jumbotron-3 h2 {
+  font-size: 3rem;
+}
+.jumbotron-4 .content h2 {
+  margin-top: 20px;
+  // font-size: 3rem !important;
+}
+
+
+
+// kjhoijhkjhkjh
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+// 以下是id01 model显示顺序调整
+#id01 {
+  z-index: 999;
+}

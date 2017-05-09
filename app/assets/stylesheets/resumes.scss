@@ -1,0 +1,572 @@
+// Place all the styles related to the resumes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// 以下是简历详情resume_show页面
+.re_index {
+  margin: 0 -15px 0;
+  margin-top: 90px;
+}
+.reitem-1 {
+  background-color: #fff;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 2px 0 rgba(155,154,155,0.5);
+  border-radius: 2px;
+  // margin-top: 90px;
+}
+.reitem-1 img {
+  width: 140px;
+  position: absolute;
+  top: -60px;
+  left: 50px;
+  box-shadow: 0 5px 8px 0 rgba(7,17,27,.2);
+}
+.reitem-1-right {
+  padding-left: 25px;
+}
+.reitem-1-right h1 {
+  font-size: 2.7rem;
+  margin-top: 30px;
+  letter-spacing: .155rem;
+  font-weight: 450;
+  color: rgba(20,20,20, 0.8);
+}
+.reitem-1-right .label-1 {
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  width: 1.3rem;
+  position: relative;
+  top: -5px;
+  border-radius: 25px;
+  margin-left: 15px;
+}
+.re_index .reitem-1 .line-1 {
+  // display: block;
+  // top: 10px;
+  width: 90%;
+position: relative;
+float: left;
+margin-bottom: 18px;
+  height: 3px;
+  background: rgba(40,40,40,0.6);
+  color: #009933;
+}
+.re_index .reitem-1-right .label-item {
+  margin-left: -15px;
+  padding-bottom: 50px;
+}
+.reitem-1-right .label-2 {
+  float: left;
+  font-size: 1.35rem;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  color: #10c14c;
+  border: 1px solid #07c257;
+}
+
+// 以下是app-item
+.app-item {
+  // margin-right: 15px;
+  background-color: #ffffff;
+  margin-left: -15px;
+  margin-bottom: 30px;
+  border: 1px;
+  box-shadow: 0 1px 2px 0 rgba(155,154,155,0.5);
+  border-radius: 2px;
+}
+.app-item img {
+  overflow: hidden;
+  border-width: 0;
+  padding: 0;
+  border-radius: 2px;
+  margin-bottom: 0;
+}
+.app-item h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+  color: rgba(20, 20, 20, 0.7);
+}
+.app-item h4 {
+  font-size: 1.5rem;
+  color:rgba(20, 20, 20, 0.6);
+  text-align: center;
+  // line-height: 50px;
+  margin-top: 14px;
+}
+.work-detail {
+  padding: 20px;
+}
+.work-link {
+  height: 42px;
+}
+.work-link-1 {
+  float: left;
+  width: 50%;
+  height: 42px;
+  line-height: 42px;
+  // display: block;
+  border-right: solid 1px rgba(155,154,155,0.24);
+  border-top: solid 1px rgba(155,154,155,0.24);
+  color: #4a4a4a;
+}
+
+.work-link-2 {
+  float: left;
+  width: 50%;
+  height: 42px;
+  line-height: 42px;
+  border-top: solid 1px rgba(155,154,155,0.24);
+}
+.work-link a {
+  color: #4a4a4a;
+}
+.work-link a:link {
+ text-decoration: none;
+}
+.work-link a:visited {
+ text-decoration: none;
+}
+.work-link a:hover {
+ // text-decoration: none;
+ background-color: #10c14c !important;
+ // color: #ffffff;
+
+}
+.work-link a:active {
+ text-decoration: none;
+}
+.work-link-1:hover {
+  background-color: #10c14c;
+  color: #ffffff;
+}
+.work-link-2:hover {
+  background-color: #10c14c;
+  color: #ffffff;
+}
+
+// 以下是reitem-2
+.reitem-2 {
+  background-color: #fff;
+  margin-left: -15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 50px;
+  margin-right: -15px;
+  padding-bottom: 60px;
+  box-shadow: 0 1px 2px 0 rgba(155,154,155,0.5);
+  border-bottom: 0;
+}
+.reitem-2-1 {
+  border-bottom: 1px dashed #eaeaea;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+.reitem-2 .title {
+
+  letter-spacing: .1rem;
+  color: rgba(20, 20, 20, 0.85);
+  margin-bottom: 40px;
+}
+.reitem-2 .title h1 {
+  // float: left;
+  font-weight: 500;
+    font-size: 2.7rem;
+}
+.reitem-2 h2 {
+  font-size: 1.9rem;
+  color: rgba(20, 20, 20, 0.89);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.reitem-2 .ui-box {
+    width: 10px;
+    height: 10px;
+    background-color: #60c99b;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 2px;
+    line-height: 10px;
+}
+.reitem-2 .haha a:hover {
+  background-color: #ffffff;
+  color: #10c14c;
+}
+.reitem-2 .haha button:hover {
+  background-color: #ffffff;
+  color: #10c14c;
+}
+.btn-1 {
+  height: 50px;
+}
+.reitem-2-1 p {
+  // margin-top: -30px;
+  position: relative;
+  bottom: -29px;
+  color: rgba(20,20,20,0.65);
+}
+.reitem-2 h5 {
+  font-weight: 500;
+  font-size: 2.7rem;
+  letter-spacing: .1rem;
+  color: rgba(20, 20, 20, 0.85);
+  margin-top: 50px;
+}
+.reitem-2 .p2 p {
+  font-size: 1.5rem;
+  color: rgba(2,2,2,0.76);
+  line-height: 2rem;
+  word-wrap: break-word;
+  word-break: normal;
+}
+.re-show-btn {
+  float: right;
+}
+.re-show-btn-1 {
+  // float: right;
+  display: inline-block;
+}
+.re-show-btn-2 {
+  // float: right;
+  display: inline-block;
+}
+
+
+
+
+// 以下是reitem-3
+.reitem-3 {
+  background-color: #fff;
+  margin: 15px -15px 55px;
+  padding: 50px 70px 30px;
+  box-shadow: 0 1px 2px 0 rgba(155,154,155,0.5);
+}
+.reitem-3 h1 {
+  font-weight: 500;
+  font-size: 2.7rem;
+  letter-spacing: .1rem;
+  color: rgba(20, 20, 20, 0.85);
+  padding-bottom: 30px;
+}
+.reitem-3 img {
+  border: 0;
+  padding: 0;
+  border-radius: 1px;
+  box-shadow: 0 10px 50px rgba(0,0,0,0.5);
+  margin-bottom: 10px;
+}
+
+.liang-btn {
+  padding: 10px;
+  z-index: 99;
+
+}
+.liang-btn:hover {
+  background-color: transparent !important;
+  color: #10c14c;
+}
+
+
+//以下是微信二维码
+#overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  // background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.8);
+  // z-index: -1;
+  cursor: pointer;
+}
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+#overlay img {
+  width: 800px;
+}
+
+// 以下是contact-top
+.contact-topv .contact-top {
+  background: rgba(0,0,0,.8);
+  // display: none;
+  margin-right: -15px;
+  margin-left: -15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 84px;
+  z-index: 100;
+  transition: .5s ease;
+}
+.contact-topv .contact-top .top-user-img img {
+  width: 63px;
+  heigh:63px;
+  margin-top: 11px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  float: right;
+}
+.contact-topv .contact-top .user-name {
+  margin: 20px 24px 20px;
+}
+.contact-topv .contact-top h1 {
+  color: #fff;
+  font-size: 2.6rem;
+}
+.contact-topv .contact-top p {
+  color: #fff;
+  // font-size:
+  margin-top: -13px;
+  margin-left: 24px;
+}
+.contact-topv .contact-topv .contact-top a {
+  margin-top: 16px;
+  padding: 13px;
+  font-size: 1.8rem;
+}
+.contact-topv .contact-top a:hover {
+  background-color: transparent;
+}
+.contact-topv .contact-top button{
+  margin-top: 16px;
+  padding: 13px;
+  font-size: 1.8rem;
+}
+.contact-topv .contact-top .cancel-link a{
+  margin-top: 60px;
+}
+#contacttop {
+  display: none;
+}
+
+// 以下是 re-show-login-model
+
+
+/* Set a style for all buttons */
+.modal button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    // width: 100%;
+}
+
+.modal button:hover {
+    opacity: 0.8;
+    background-color: transparent;
+    color: red;
+}
+
+/* Extra styles for the cancel button */
+liang-modal-2 .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    // padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.modal-close-1 {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.modal-close-1:hover,
+.modal-close-1:focus {
+    color: red;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+.liang-modal {
+  width: 98%;
+  padding: 16px;
+}
+.liang-modal .modal-btn {
+  width: 100%;
+  height: 45px;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-top: 30px;
+}
+.liang-modal .modal-btn:hover {
+  background-color: #fff;
+  color: #10c14c;
+}
+
+.liang-modal-2 {
+  width: auto;
+  margin-right: -20px;
+  margin-left:  -20px;
+  padding: 16px;
+}
+.liang-modal-2 button{
+  background-color: #90eb14;
+}
+/* Add Zoom Animation */
+// .animate {
+//     -webkit-animation: animatezoom 0.6s;
+//     animation: animatezoom 0.6s
+// }
+//
+// @-webkit-keyframes animatezoom {
+//     from {-webkit-transform: scale(0)}
+//     to {-webkit-transform: scale(1)}
+// }
+//
+// @keyframes animatezoom {
+//     from {transform: scale(0)}
+//     to {transform: scale(1)}
+// }
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+ // 以下是提示条
+ /* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #10c14c; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    top: 104px; /* 30px from the top */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 104px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 104px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {top: 104px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {top: 104px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
+// 以下是contact条
+#contacttop.show {
+    display: block; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein-1 0.5s, fadeout-1 0.5s 2.5s;
+    animation: fadein-1 0.5s, fadeout-1 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein-1 {
+    from {top: 0; opacity: 0;}
+    to {top: 104px; opacity: 1;}
+}
+
+@keyframes fadein-1 {
+    from {top: 0; opacity: 0;}
+    to {top: 104px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout-1 {
+    from {top: 104px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
+
+@keyframes fadeout-1 {
+    from {top: 104px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}

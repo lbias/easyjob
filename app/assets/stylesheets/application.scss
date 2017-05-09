@@ -1,0 +1,156 @@
+/*CSS reset*/
+ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
+ blockquote,th,td {margin:0;padding:0;}
+ table {border-collapse:collapse;border-spacing:0;}
+ fieldset,img {border:0}
+ address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ ol,ul {list-style:none}
+ caption,th {text-align:left}
+ h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal}
+ q:before,q:after {content:''}
+ abbr,acronym { border:0}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap";
+@import "bootstrap-sprockets";
+@import "font-awesome";
+@import "welcome";
+@import "resumes";
+@import "registration";
+@import "map";
+@import "wel_cp_style";
+@import "jobs";
+
+
+
+// 所有字体
+// h1, h2, h3, h4, h5, h6, p, a, li, span, div, input, button, label, form {
+//   font-family: Hiragino Sans GB, STHeiti, Microsoft Yahei, sans-serif !important;
+// }
+// 以下是bc页面的背影色设置
+.bc-color {
+  background-color: #f3f3f3;
+}
+// 以下是提示条
+.alert {
+  margin-bottom: 0 !important;
+}
+// 以下是导航条
+.navbar-default {
+  background-color : #ffffff;
+  border-width :0;
+  margin-bottom: 0;
+  height :10%;
+  padding: 8px;
+  z-index: 3;
+  position: relative;
+  border-radius: 0;
+}
+.navbar-brand > img {
+  display: inline-block;
+  width: 42px;
+  margin: 0;
+  margin-right: 10px;
+}
+.navbar-brand {
+  font-size: 1.7em;
+  font-weight: 900;
+  color: #07c257;
+  letter-spacing: 2px;
+  line-height: 2.3rem;
+  font-family: Hiragino Sans GB, STHeiti, Microsoft Yahei, sans-serif !important;
+}
+.navbar-default .navbar-brand {
+  color: #07c257;
+}
+#navbar-img {
+  padding: 0;
+}
+.navbar .search-btn:hover {
+  background-color: #2dbe60;
+
+}
+.navbar .search-btn {
+  border-left: 0;
+  font-size: 2.3rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar-row {
+  margin-bottom: -4px;
+  // height: 70px;
+  // overflow: hidden;
+}
+.navbar-btn {
+  font-size: 17px;
+  margin-left: 5px;
+  background-color: #fff;
+  color: #2dbe60;
+}
+
+// 以下用户头像
+.round-image-50 {
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    text-align: center;
+    img { width: 100% }
+}
+
+
+
+// 以下是页脚
+.footer-content {
+  background-color: #F0F0F0;
+  padding: 20px 0 15px 0;
+  height: 60px;
+}
+.footer-link {
+  float: left;
+}
+.footer-link a{
+  color: rgb(111, 111, 111);
+}
+.design p{
+  float: right;
+  color: rgb(111, 111, 111);
+}
+.story-item .stroy-text h1{
+  color: #409c6a;
+  font-size: 5rem;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.body-content {
+  min-height: 100%;
+  padding-bottom: 60px;
+}
+.footer {
+  height: 60px;
+  margin-top: -60px;
+}
+#snackbar {
+  z-index: 999;
+}
